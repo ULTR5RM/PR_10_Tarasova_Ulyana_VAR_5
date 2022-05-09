@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PR_10_Tarasova_Ulyana_VAR_5">
         <activity
+            android:name=".steps"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
